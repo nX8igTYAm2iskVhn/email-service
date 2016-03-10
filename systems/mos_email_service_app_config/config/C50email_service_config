@@ -1,0 +1,5 @@
+create_directory "/var/nX8igTYAm2iskVhn/run", "ubergateway_deploy:root"
+create_directory "/var/nX8igTYAm2iskVhn/run/email-service", "ubergateway_deploy:root"
+create_directory "/var/nX8igTYAm2iskVhn/email-service", "ubergateway_deploy:root"
+create_directory "/var/nX8igTYAm2iskVhn/log/email-service", "ubergateway_deploy:root"
+create_directory "/var/nX8igTYAm2iskVhn/certs"

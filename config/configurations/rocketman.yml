@@ -1,0 +1,22 @@
+common:
+  port: 6379
+  timeout: 1
+
+test:
+  host:
+  use_resque: false
+
+development:
+  host: localhost
+  use_resque: false
+
+staging:
+  host: general-redis-staging-vip
+  use_resque: true
+
+uat:
+  host: general-redis-staging-vip
+  use_resque: true
+
+production:
+  host: general-redis-vip

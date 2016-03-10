@@ -1,0 +1,2 @@
+common:
+  revision: <%= File.read(Rails.root.join("REVISION")) rescue `git rev-parse HEAD` %>

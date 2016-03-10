@@ -1,0 +1,15 @@
+environment:
+  language: ruby
+  language_versions:
+    - 1.9.3_p551
+    - 2.1.6_p336
+    - 2.0.0_p643
+    - 2.2.3_p173_openssl_1.0.2d
+
+build:
+  before:
+    - gem install bundler
+    - bundle install --jobs 10 --deployment --without nothing
+
+  run:
+    test: bundle exec rake --trace --verbose

@@ -1,0 +1,179 @@
+GIT
+  remote: git@github.nX8igTYAm2iskVhndev.com:payments/gem-deployment.git
+  revision: 40ab83d01cdc0efca9624e552f7941c01278bbae
+  ref: HEAD
+  specs:
+    payments-deployment (0.0.6)
+      capistrano (~> 2.15.5)
+      capistrano-deploytags (~> 0.8.0)
+      capistrano-detect-migrations (~> 0.6.1)
+
+GIT
+  remote: git@github.nX8igTYAm2iskVhndev.com:payments/gem-splunk.git
+  revision: d72e592658fe156a80c484693c53c482a3d77f6c
+  ref: HEAD
+  specs:
+    payments-splunk (0.0.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (4.0.2)
+      actionpack (= 4.0.2)
+      mail (~> 2.5.4)
+    actionpack (4.0.2)
+      activesupport (= 4.0.2)
+      builder (~> 3.1.0)
+      erubis (~> 2.7.0)
+      rack (~> 1.5.2)
+      rack-test (~> 0.6.2)
+    activemodel (4.0.2)
+      activesupport (= 4.0.2)
+      builder (~> 3.1.0)
+    activerecord (4.0.2)
+      activemodel (= 4.0.2)
+      activerecord-deprecated_finders (~> 1.0.2)
+      activesupport (= 4.0.2)
+      arel (~> 4.0.0)
+    activerecord-deprecated_finders (1.0.3)
+    activesupport (4.0.2)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    airbrake (3.2.0)
+      builder
+      multi_json
+    arel (4.0.1)
+    atomic (1.1.14)
+    builder (3.1.4)
+    capistrano (2.15.5)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    capistrano-deploytags (0.8.0)
+      capistrano
+      capistrano-ext
+    capistrano-detect-migrations (0.6.3)
+      capistrano
+      capistrano-deploytags
+      capistrano-ext
+    capistrano-ext (1.2.1)
+      capistrano (>= 1.0.0)
+    diff-lcs (1.2.5)
+    erubis (2.7.0)
+    factory_girl (4.3.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.3.0)
+      factory_girl (~> 4.3.0)
+      railties (>= 3.0.0)
+    highline (1.6.20)
+    hike (1.2.3)
+    i18n (0.6.9)
+    kgio (2.10.0)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.25.1)
+    minitest (4.7.5)
+    multi_json (1.8.4)
+    net-scp (1.1.2)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.7.0)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    polyglot (0.3.3)
+    power_assert (0.2.2)
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rails (4.0.2)
+      actionmailer (= 4.0.2)
+      actionpack (= 4.0.2)
+      activerecord (= 4.0.2)
+      activesupport (= 4.0.2)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.0.2)
+      sprockets-rails (~> 2.0.0)
+    railties (4.0.2)
+      actionpack (= 4.0.2)
+      activesupport (= 4.0.2)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    raindrops (0.12.0)
+    rake (10.1.1)
+    redis (3.0.7)
+    redis-actionpack (4.0.0)
+      actionpack (~> 4)
+      redis-rack (~> 1.5.0)
+      redis-store (~> 1.1.0)
+    redis-activesupport (4.0.0)
+      activesupport (~> 4)
+      redis-store (~> 1.1.0)
+    redis-rack (1.5.0)
+      rack (~> 1.5)
+      redis-store (~> 1.1.0)
+    redis-rails (4.0.0)
+      redis-actionpack (~> 4)
+      redis-activesupport (~> 4)
+      redis-store (~> 1.1.0)
+    redis-store (1.1.4)
+      redis (>= 2.2)
+    rspec-core (2.14.7)
+    rspec-expectations (2.14.4)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.14.4)
+    rspec-rails (2.14.1)
+      actionpack (>= 3.0)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    sprockets (2.10.1)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-rails (2.0.1)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      sprockets (~> 2.8)
+    test-unit (3.0.8)
+      power_assert
+    thor (0.18.1)
+    thread_safe (0.1.3)
+      atomic
+    tilt (1.4.1)
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.38)
+    unicorn (4.8.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  airbrake
+  factory_girl_rails
+  payments-deployment!
+  payments-splunk!
+  rails (= 4.0.2)
+  redis
+  redis-rails
+  rspec-rails
+  test-unit
+  unicorn
+
+BUNDLED WITH
+   1.11.2

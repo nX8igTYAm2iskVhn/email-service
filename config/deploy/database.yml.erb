@@ -1,0 +1,17 @@
+<% if environment=='staging' %>
+staging:
+  adapter: mysql2
+  encoding: utf8
+  host: localhost
+  database: <%= db %>
+  username: <%= db_user %>
+  password: <%= db_password %>
+<% elsif environment=='production' %>
+production:
+  adapter: mysql2
+  encoding: utf8
+  host: mos-data-db1
+  database: <%= db %>
+  username: <%= db_user %>
+  password: <%= db_password %>
+<% end %>
